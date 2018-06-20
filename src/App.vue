@@ -1,16 +1,15 @@
 <template>
-  <div class="full-width center-content">
-    <img src="/static/img/logo.png" alt="" />
-    <hello-component name="World" />
+  <div class="container">
+    <h3>{{ title }}</h3>
   </div>
 </template>
 
 <script>
-import HelloComponent from './components/HelloComponent.vue'
-
 export default {
-  components: {
-    HelloComponent
+  data: function() {
+    return {
+      title: 'My App'
+    }
   }
 }
 </script>

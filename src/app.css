@@ -3,3 +3,9 @@ body {
   margin: 0;
   font-family: Helvetica, 'Roboto', 'Segoe UI', Tahoma, sans-serif
 }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 650px;
+}
