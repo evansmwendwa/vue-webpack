@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+.zip
+.tar
+.rar
+package-lock.json
+.log
+.sql
+.sqlite
+.Trashes
+ehthumbs.db
+Thumbs.db
